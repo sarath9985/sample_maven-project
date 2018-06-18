@@ -4,7 +4,7 @@
   <groupId>com.scmgalaxy.mavensample</groupId>
   <artifactId>my-maven</artifactId>
   <packaging>jar</packaging>
-  <version>4.0.0</version>
+  <version>4.0-SNAPSHOT</version>
   <name>my-maven</name>
   <url>http://maven.apache.org</url>
 	
@@ -40,14 +40,14 @@
   
 <distributionManagement>
     <repository>
-        <id>cts-nexus</id>
-        <name>bd7e4d6b271d-releases</name>
-        <url>http://13.232.53.166:8081/nexus/content/repositories/3dx/</url>
+        <id>deployment</id>
+        <name>Internal-releases</name>
+        <url>http://52.66.16.119:8081/nexus/content/repositories/rmi/</url>
     </repository>
     <snapshotRepository>
-        <id>cts-nexus</id>
-        <name>bd7e4d6b271d-snapshots</name>
-        <url>http://13.232.53.166:8081/nexus/content/repositories/3dx/</url>
+        <id>deployment</id>
+        <name>Internal Relaese1-SNAPSHOT</name>
+        <url>http://52.66.16.119:8081/nexus/content/repositories/rmisnap/</url>
     </snapshotRepository>
 </distributionManagement>
 
